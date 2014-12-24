@@ -1145,3 +1145,26 @@ img{
   float: left;
   padding-left: 15px;
 }
+
+#cboxOverlay{
+  background: #465f6c;
+}
+
+.view-lightbox .views-field-field-teaser-image,
+.view-lightbox .field-collection-view{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 33.33333333333333%;
+}
+
+.view-lightbox img,
+.view-work img{
+  border: 1px solid #CCCCCC;
+  padding: 6px;
+  height: auto;
+  max-width: 97.4%;
+  margin: 0.5em 1em 0.5em 0;
+}
